@@ -2,6 +2,6 @@ python-telegram-bot
 aiohttp
 requests
 pytgcalls==0.0.24
-tgcalls==0.0.16
+tgcalls==3.0.0.dev6
 ffmpeg
 yt-dlp
