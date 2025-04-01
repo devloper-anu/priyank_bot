@@ -1,0 +1,6 @@
+services:
+  - type: worker  # Background Worker (no port needed)
+    name: telegram-music-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py  # Runs the polling bot
